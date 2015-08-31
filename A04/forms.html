@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Cam's Cool Website</title>
+</head>
+<style>
+  td {
+    white-space: pre padding : 0;
+  }
+</style>
+<body>
+<table border="1" style="width:100%">
+  <tr>
+    <td colspan="2"><h1 align="center">Cam's Cool Website</h1></td>
+  </tr>
+  <tr>
+    <td colspan="2"><a href="index.html">Home</a> <a href="forms.html">Forms</a></td>
+  </tr>
+  <tr>
+    <td align="center" valign="top">
+      <br><b>Forms Summary</b><br>
+      <br>HTML supports several different types of input.<br>
+    </td>
+    <td align="left" width="75%">
+      <h3>Forms Page</h3>
+      <form action="forms.html" method="get">
+        The following is a text input:<br><br>
+        <label for="username">Username:</label>
+        <input type="text" name="username" id="username" />
+        <br><br>Then a password input:<br><br>
+        <label for="password">Password:</label>
+        <input type="text" name="password" id="password" />
+        <br><br>Radio Buttons:<br><br>
+        <input type="radio" name="sex" value="male" id="male" />
+        <label for="male">Male</label>
+        <br><input type="radio" name="sex" value="female" id="female" />
+        <label for="female">Female</label>
+        <br><br>Checkboxes:<br><br>
+        <input type="checkbox" name="Windows OS" value="Windows" id="windows" />
+        <label for="windows">Windows</label>
+        <br><input type="checkbox" name="Mac OS" value="OS X" id="mac" />
+        <label for="mac">OS X</label>
+        <br><input type="checkbox" name="Linux OS" value="Linux" id="linux" />
+        <label for="linux">Linux</label>
+        <br><br>Submit button to send form data:
+        <br><br><input type="submit" value="Submit" />
+      </form>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2" align="center">Copyright (C) Cam Moore</td>
+  </tr>
+</table>
+</body>
+</html>
