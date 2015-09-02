@@ -1,0 +1,145 @@
+body {
+  background: #F2E9D2;
+  margin: 10px;
+}
+
+body, p {
+  font: 100% Lora, Book Antiqua, verdana, helvetica, sans-serif;
+  line-height: 150%;
+}
+
+p {
+  font: 100% Lora, Book Antiqua, verdana, helvetica, sans-serif;
+  line-height: 150%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: Book Antiqua, times, serif;
+}
+
+#main_wrapper {
+  width: 760px;
+  margin: 0 auto;
+  border: 3px solid #333;
+  border-right-color: #777;
+  border-bottom-color: #777;
+  padding: 20px;
+  background: #FFF;
+}
+
+#masterHead {
+  text-align: center;
+  border-bottom: 1px solid #777;
+}
+
+#masterHead h1, #masterHead h2 {
+  letter-spacing: .5em;
+  margin: 0;
+}
+
+#masterHead h2 {
+  font-size: 75%;
+  font-style: italic;
+}
+
+#masterHead p {
+  margin: 10px 0 20px;
+}
+
+#masterHead a {
+  font: bold small-caps 80% georgia, times, serif;
+  text-decoration: none;
+  border: 1px solid #777;
+  padding: 4px;
+  color: #000;
+}
+
+#masterHead a:hover, #masterHead a:active {
+  color: #FFF;
+  background: #000;
+}
+
+#content h1 {
+  background: #F2E9D2;
+  padding: 5px;
+  border: 1px solid #333;
+  border-right-color: #777;
+  border-bottom-color: #777;
+}
+
+#content h2 {
+  border-top: 1px dashed #777;
+  padding-top: 10px;
+}
+
+#typesWrap {
+  overflow: hidden;
+}
+
+.types {
+  min-height: 90px;
+  width: 50%;
+  float: left;
+  font: 100% Lora, Book Antiqua, verdana, helvetica, sans-serif;
+  line-height: 150%;
+}
+
+#contactWrap {
+  overflow: hidden;
+}
+
+.contact1 {
+  min-height: 110px;
+  width: 50%;
+  text-align: right;
+  float: left;
+  font: 100% Lora, Book Antiqua, verdana, helvetica, sans-serif;
+  line-height: 150%;
+}
+
+.contact2 {
+  min-height: 110px;
+  width: 50%;
+  float: left;
+  font: 100% Lora, Book Antiqua, verdana, helvetica, sans-serif;
+  line-height: 150%;
+}
+
+#coffeePic {
+  width: 300px;
+}
+
+#comments {
+  width: 150px;
+  height: 100px;
+}
+
+a:hover, a:active {
+  color: #C00;
+}
+
+form {
+  border: 3px double #ddd;
+  padding: 10px;
+  background: #F2E9D2;
+}
+
+.contact-left {
+  text-align: right;
+  font-size: 90% font-weight : bold;
+}
+
+#buttons {
+  text-align: center;
+  border-bottom: none;
+}
+
+#buttons input {
+  border: 1px solid #000;
+  border-left-width: 5px;
+  background: #DDA;
+  font-variant: small-caps;
+  font-size: 90% font-weight : bold;
+  letter-spacing: .125em;
+  margin: 0 10px;
+}

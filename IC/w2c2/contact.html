@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>IC: W2C2 CSS</title>
+  <link href="styles/layout.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+<div id="main_wrapper">
+  <div id="masterHead">
+    <h1>Permanent Addiction</h1>
+
+    <h2>Coffee Addicts!</h2>
+
+    <p><a href="home.html">Home</a> <a href="types.html">Types of Coffee</a> <a>Recipes</a> <a>About Us</a> <a
+        href="contact.html">Contact</a></p>
+  </div>
+
+  <div id="content">
+    <h1>Contact</h1>
+
+    <form action="contact.html" method="get">
+
+      <div id="contactWrap">
+        <div class="contact1">
+          <label for="name">Name:</label>
+
+          <br><label for="email">E-mail:</label>
+
+          <br>Do you drink coffee?<br>
+
+          <br>Do you brew your coffee or buy from a coffee shop?
+
+          <br><label for="type">Why type of coffee do you like?</label>
+
+          <br><label for="comments">Comments:</label>
+        </div>
+
+        <div class="contact2">
+          <input type="text" name="Name" id="name"/>
+
+          <br><input type="text" name="Email" id="email"/>
+
+          <br><input type="radio" name="Do you drink coffee?" id="coffee_y" value="Yes"/>
+          <label for="coffee_y">Yes, I drink coffee every day!</label>
+
+          <br><input type="radio" name="Do you drink coffee?" id="coffee_n" value="No"/>
+          <label for="coffee_n">No, I don't drink coffee anymore.</label>
+
+          <br><input type="radio" name="Home or shop?" id="home_y" value="Yes"/>
+          <label for="home_y">I brew my coffee at home!</label>
+
+          <br><input type="radio" name="Home or shop?" id="home_n" value="No"/>
+          <label for="home_n">I buy my coffee from a coffee shop!</label>
+
+          <select name="CoffeeType" id="type">
+            <option>Expresso Macchiato</option>
+            <option>Expresso con Panna</option>
+            <option>Caffe Latte</option>
+            <option>Flat White</option>
+            <option>Cafe Breve</option>
+            <option>Cappuccino</option>
+            <option>Caffe Mocha</option>
+            <option>Americano</option>
+            <option>All of the above.</option>
+            <option>It's too hard to choose!</option>
+            <option>None of the above.</option>
+          </select>
+
+          <br><textarea name="Comments" id="comments"></textarea>
+
+        </div>
+      </div>
+
+
+      <div id="buttons">
+        <input type="reset" value="Reset"/>
+        <input type="submit" value="Send"/>
+      </div>
+    </form>
+
+  </div>
+</div>
+
+<script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
+
+</body>
+
+</html>
