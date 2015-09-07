@@ -1,0 +1,111 @@
+body {
+  background: #d7dcb4;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: Book Antiqua, times, serif;
+}
+
+#mainWrapper {
+  width: 90%;
+  margin: 0 auto;
+  border: 3px solid #441e1c;
+  border-right-color: #441e1c;
+  border-bottom-color: #441e1c;
+  padding: 20px;
+  background: #FFF;
+}
+
+#header {
+  height: 25%;
+  text-align: center;
+  letter-spacing: .5em;
+  margin: 0;
+  border-bottom: 1px solid #441e1c;
+}
+
+#header h2 {
+  font-size: 75%;
+  font-style: italic;
+}
+
+#navbar a {
+  font: bold small-caps 80% georgia, times, serif;
+  text-decoration: none;
+  border: 1px solid #441e1c;
+  padding: 4px;
+  color: #000;
+}
+
+#navbar a:hover, #navbar a:active {
+  color: #FFF;
+  background: #d7dcb4;
+}
+
+#navbar {
+  height: 50px;
+  text-align: center;
+  border-bottom: 1px solid #441e1c;
+}
+
+#bodyWrapper {
+  overflow: hidden;
+  border-bottom: 1px solid #441e1c;
+}
+
+.sidebar {
+  min-height: 110px;
+  width: 25%;
+  float: left;
+  padding: 20px;
+  font: 100% Lora, Book Antiqua, verdana, helvetica, sans-serif;
+}
+
+.mainPage {
+  min-height: 110px;
+  float: left;
+  padding: 20px;
+  font: 100% Lora, Book Antiqua, verdana, helvetica, sans-serif;
+  border-left: 1px solid #441e1c;
+}
+
+#formWrap {
+  overflow: hidden;
+}
+
+.form1 {
+  min-height: 110px;
+  width: 50%;
+  text-align: right;
+  float: left;
+  font: 100% Lora, Book Antiqua, verdana, helvetica, sans-serif;
+  line-height: 150%;
+}
+
+.form2 {
+  min-height: 110px;
+  width: 50%;
+  float: left;
+  font: 100% Lora, Book Antiqua, verdana, helvetica, sans-serif;
+  line-height: 150%;
+}
+
+#footer {
+  height: 50px;
+  text-align: center;
+}
+
+#buttons {
+  text-align: center;
+  border-bottom: none;
+}
+
+#buttons input {
+  border: 1px solid #441e1c;
+  border-left-width: 5px;
+  background: #DDA;
+  font-variant: small-caps;
+  font-size: 90% font-weight : bold;
+  letter-spacing: .125em;
+  margin: 0 10px;
+}

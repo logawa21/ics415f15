@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>ICS 415 A05</title>
+  <link href="styles/layout.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+<div id="mainWrapper">
+  <div id="header">
+    <h1>Brewed to a Tea</h1>
+  </div>
+
+  <div id="navbar">
+    <p>
+      <a href="index.html">Home</a>
+      <a href="types.html">Types</a>
+      <a href="forms.html">Forms</a>
+    </p>
+  </div>
+
+  <div id="bodyWrapper">
+    <div class="sidebar">
+      <h3>Forms</h3>
+      Random and not so random questions for the form section.<br>
+    </div>
+    <div class="mainPage">
+      <form action="forms.html" method="get">
+
+        <div id="formWrap">
+          <div class="form1">
+            <label for="name">Name:</label>
+
+            <br><label for="email">E-mail:</label>
+
+            <br>Do you drink tea?<br>
+
+            <br>Do you brew your own tea or buy from a tea shop?
+
+            <br><br><label for="type">Why type of tea do you like?</label>
+
+            <br><label for="comments">Comments:</label>
+
+            <br><br>Random Questions
+
+            <br><br><label for="color">Choose your favorite color:</label>
+
+            <br><br><label for="date">Date (month and year):</label>
+            <br><label for="dateTime">Date Time (date and time):</label>
+            <br><label for="month">Month (month and year):</label>
+
+            <br><br><label for="number">Enter a number between 1 and 10:</label>
+
+            <br><br><label for="range">Range:</label>
+
+            <br><br><label for="search">Search for something:</label>
+
+            <br><br><label for="url">Enter a URL:</label>
+          </div>
+
+          <div class="form2">
+            <input type="text" name="Name" id="name"/>
+
+            <br><input type="email" name="Email" id="email"/>
+
+            <br><input type="radio" name="Do you drink coffee?" id="tea_y" value="Yes"/>
+            <label for="tea_y">Yes, I drink tea every day!</label>
+
+            <br><input type="radio" name="Do you drink coffee?" id="tea_n" value="No"/>
+            <label for="tea_n">No, I don't drink tea anymore.</label>
+
+            <br><input type="radio" name="Home or shop?" id="home_y" value="Yes"/>
+            <label for="home_y">I brew my tea at home!</label>
+
+            <br><input type="radio" name="Home or shop?" id="home_n" value="No"/>
+            <label for="home_n">I buy my tea from a tea shop!</label>
+
+            <select name="TeaType" id="type">
+              <option>Blooming Tea</option>
+              <option>White Tea</option>
+              <option>Flavored White Tea</option>
+              <option>Green Tea</option>
+              <option>Flavored Green Tea</option>
+              <option>Oolong Tea</option>
+              <option>Black Tea</option>
+              <option>Mate Tea</option>
+              <option>Rooibos Tea</option>
+              <option>Herbal Tea</option>
+            </select>
+
+            <br><textarea name="Comments" id="comments"></textarea>
+
+            <br><br><br><input type="color" name="favColor" id="color">
+
+            <br><br><input type="month" name="date" id="date">
+            <br><input type="datetime" name="dateTime" id="dateTime">
+            <br><input type="month" name="month" id="month">
+
+            <br><br><input type="number" name="quantity" min="1" max="10" id="number">
+
+            <br><br><input type="range" name="points" min="0" max="10" id="range">
+
+            <br><br><input type="search" name="googlesearch" id="search">
+
+            <br><br><input type="url" name="homepage" id="url">
+          </div>
+        </div>
+
+
+        <div id="buttons">
+          <input type="reset" value="Reset"/>
+          <input type="submit" value="Send"/>
+        </div>
+      </form>
+    </div>
+  </div>
+  <div id="footer">
+    <br>Webmaster: <a href="mailto:logawa21@hawaii.edu" target="_blank">Lauren Ogawa</a>
+  </div>
+</div>
+
+<script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
+
+</body>
+</html>
