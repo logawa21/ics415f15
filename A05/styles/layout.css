@@ -10,8 +10,6 @@ h1, h2, h3, h4, h5, h6 {
   width: 90%;
   margin: 0 auto;
   border: 3px solid #441e1c;
-  border-right-color: #441e1c;
-  border-bottom-color: #441e1c;
   padding: 20px;
   background: #FFF;
 }
