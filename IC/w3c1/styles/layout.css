@@ -1,0 +1,124 @@
+body {
+  background: #F2E9D2;
+  margin: 10px;
+}
+
+body, p {
+  font: 100% Lora, Book Antiqua, verdana, helvetica, sans-serif;
+  line-height: 150%;
+}
+
+p {
+  font: 100% Lora, Book Antiqua, verdana, helvetica, sans-serif;
+  line-height: 150%;
+  font-size: medium;
+}
+
+.page-header {
+  text-align: center;
+  border-bottom: 1px solid #777;
+}
+
+.page-header h1, .page-header h2 {
+  letter-spacing: .5em;
+  font-family: Book Antiqua, times, serif;
+  margin: 0;
+}
+
+.page-header h2 {
+  font-size: 145%;
+  font-style: italic;
+}
+
+.navbar-inverse {
+  font-size: medium;
+}
+
+#bodyWrapper {
+  overflow: hidden;
+}
+
+/* Sidebar modules for boxing content */
+.sidebar-module {
+  padding: 15px;
+  margin: 0 -15px 15px;
+}
+.sidebar-module-inset {
+  padding: 15px;
+  background-color: #fdfdfe;
+  border-radius: 4px;
+}
+.sidebar-module-inset p:last-child,
+.sidebar-module-inset ul:last-child,
+.sidebar-module-inset ol:last-child {
+  margin-bottom: 0;
+}
+
+.blog-main {
+  line-height: 1.5;
+  min-height: 110px;
+  float: left;
+  padding: 5px 30px;
+  font: 100% Lora, Book Antiqua, verdana, helvetica, sans-serif;
+}
+
+#typesWrap {
+  overflow: hidden;
+}
+
+#coffeePic {
+  width: 300px;
+}
+
+.types {
+  min-height: 90px;
+  width: 50%;
+  float: left;
+  font: 100% Lora, Book Antiqua, verdana, helvetica, sans-serif;
+  line-height: 150%;
+}
+
+#list {
+  font-size: medium;
+
+  line-height: 150%;
+}
+
+form {
+  padding: 10px;
+}
+
+#contactWrap {
+  overflow: hidden;
+}
+
+.contact1 {
+  min-height: 110px;
+  width: 50%;
+  text-align: right;
+  float: left;
+  font: 100% Lora, Book Antiqua, verdana, helvetica, sans-serif;
+  line-height: 150%;
+  font-size: medium;
+  padding: 10px;
+}
+
+.contact2 {
+  min-height: 110px;
+  width: 50%;
+  float: left;
+  font: 100% Lora, Book Antiqua, verdana, helvetica, sans-serif;
+  line-height: 150%;
+  font-size: medium;
+  padding: 10px;
+}
+
+#buttons {
+  text-align: center;
+}
+
+.blog-footer {
+  padding: 40px;
+  color: #999;
+  text-align: center;
+}
