@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+  <title>A06 Bootstrap</title>
+
+  <!-- Bootstrap -->
+  <link href="styles/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom styles for sticky-footer -->
+  <link href="styles/sticky-footer.css" rel="stylesheet">
+
+  <!-- My Styles -->
+  <link href="styles/layout.css" rel="stylesheet" type="text/css"/>
+
+</head>
+<body>
+
+<div class="container">
+  <div class="page-header">
+    <h1>Brewed to a Tea</h1>
+  </div>
+
+  <nav class="navbar navbar-inverse">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar"
+                aria-expanded="false" aria-controls="navbar">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+
+      </div>
+      <div id="navbar" class="collapse navbar-collapse">
+        <ul class="nav navbar-nav">
+          <li><a href="home.html">Home</a></li>
+          <li class="active"><a href="types.html">Types of Tea</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container">
+    <div class="row">
+
+      <div class="col-sm-3 blog-sidebar" id="sidebar">
+        <div class="sidebar-module sidebar-module-inset">
+          <h4>Types of Tea</h4>
+
+          <p>I will eventually put temperature and times for both hot and iced tea.
+            Though this may vary depending on the loose leaf you buy.</p>
+        </div>
+      </div>
+      <!-- /.blog-sidebar -->
+
+      <div class="col-sm-8 blog-main" id="mainPage">
+        <h4>Types of Tea</h4>
+
+        <ul>
+          <li>Blooming Tea</li>
+          <li>White Tea</li>
+          <li>Flavored White Tea</li>
+          <li>Green Tea</li>
+          <li>Flavored Green Tea</li>
+          <li>Oolong Tea</li>
+          <li>Black Tea</li>
+          <li>Mate Tea</li>
+          <li>Rooibos Tea</li>
+          <li>Herbal Tea</li>
+        </ul>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+<footer class="footer">
+  <div class="container">
+    <p class="text-muted">Webmaster: <a href="mailto:logawa21@hawaii.edu" target="_blank">Lauren Ogawa</a>
+    </p>
+  </div>
+</footer>
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="js/jquery.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="js/bootstrap.min.js"></script>
+</body>
+</html>

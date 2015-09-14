@@ -1,0 +1,34 @@
+body {
+  background: #d7dcb4;
+}
+
+h1{
+  font-family: Book Antiqua, times, serif;
+}
+
+.page-header {
+  height: 25%;
+  text-align: center;
+  letter-spacing: .5em;
+  margin: 0;
+  border-bottom: 1px solid #441e1c;
+}
+
+.navbar, .navbar-inverse {
+  height: 50px;
+}
+
+#sidebar {
+  width: 25%;
+  background: #fdfdfe;
+  padding: 2%;
+}
+
+#mainPage {
+  padding-left: 3%;
+}
+
+.footer {
+  height: 50px;
+  background: #222222;
+}

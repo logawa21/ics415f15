@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+  <title>A06 Bootstrap</title>
+
+  <!-- Bootstrap -->
+  <link href="styles/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom styles for sticky-footer -->
+  <link href="styles/sticky-footer.css" rel="stylesheet">
+
+  <!-- My Styles -->
+  <link href="styles/layout.css" rel="stylesheet" type="text/css"/>
+
+</head>
+<body>
+
+<div class="container">
+  <div class="page-header">
+    <h1>Brewed to a Tea</h1>
+  </div>
+
+  <nav class="navbar navbar-inverse">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar"
+                aria-expanded="false" aria-controls="navbar">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+
+      </div>
+      <div id="navbar" class="collapse navbar-collapse">
+        <ul class="nav navbar-nav">
+          <li><a href="home.html">Home</a></li>
+          <li><a href="types.html">Types of Tea</a></li>
+          <li class="active"><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container">
+    <div class="row">
+
+      <div class="col-sm-3 blog-sidebar" id="sidebar">
+        <div class="sidebar-module sidebar-module-inset">
+          <h4>Forms</h4>
+
+          <p>Random and not so random questions for the form section.</p>
+        </div>
+      </div>
+      <!-- /.blog-sidebar -->
+
+      <div class="col-sm-8 blog-main" id="mainPage">
+        <h4>Questions</h4>
+
+        <form class="form-horizontal">
+          <div class="form-group">
+            <label for="exampleInputName2">Name</label>
+            <input type="text" class="form-control" id="exampleInputName2" placeholder="Name">
+          </div>
+          <div class="form-group">
+            <label for="exampleInputEmail2">Email</label>
+            <input type="email" class="form-control" id="exampleInputEmail2" placeholder="random@example.com">
+          </div>
+
+          <div class="form-group">
+            <label>Do you drink tea?</label>
+
+            <div class="radio">
+              <label>
+                <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1">
+                Yes, I drink tea every day!
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">
+                No, I don't drink tea anymore.
+              </label>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label>Do you brew your own tea or buy from a tea shop?</label>
+
+            <div class="radio">
+              <label>
+                <input type="radio" name="optionsRadios" id="optionsRadios3" value="option1">
+                I brew my tea at home!
+              </label>
+
+
+              <div class="radio">
+                <label>
+                  <input type="radio" name="optionsRadios" id="optionsRadios4" value="option2">
+                  I buy my tea from a tea shop!
+                </label>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label>Comments
+              <textarea class="form-control" rows="3"></textarea>
+              </label>
+            </div>
+
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+
+<footer class="footer">
+  <div class="container">
+    <p class="text-muted">Webmaster: <a href="mailto:logawa21@hawaii.edu" target="_blank">Lauren Ogawa</a>
+    </p>
+  </div>
+</footer>
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="js/jquery.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="js/bootstrap.min.js"></script>
+</body>
+</html>
