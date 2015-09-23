@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+  <title>IC: W5C2 jQuery Animations and AJAX</title>
+
+  <!-- Bootstrap -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom styles for sticky-footer -->
+  <link href="css/sticky-footer.css" rel="stylesheet">
+
+  <link href="css/layout.css" rel="stylesheet" type="text/css"/>
+
+</head>
+<body>
+
+
+<div class="container">
+  <div class="page-header">
+    <h1>Header</h1>
+  </div>
+
+  <nav class="navbar navbar-inverse">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar"
+                aria-expanded="false" aria-controls="navbar">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+
+      </div>
+      <div id="navbar" class="collapse navbar-collapse">
+        <ul class="nav navbar-nav">
+          <li class="active"><a href="home.html">Home</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container">
+    <div class="row">
+
+      <div class="col-sm-3 blog-sidebar">
+        <div class="sidebar-module sidebar-module-inset">
+          <h4>Sidebar</h4>
+
+          <p>This is where you explain what kind on content is on this page. It should be a short summary.</p>
+        </div>
+      </div>
+      <!-- /.blog-sidebar -->
+
+      <div class="col-sm-9 blog-main">
+        <h4>Main Content</h4>
+
+        <div class="col-sm-6">
+          <h5>jQuery Animations</h5>
+
+          <div id="play">jQuery: Hide and show this div.</div>
+
+          <button id="hide" type="button" class="btn btn-default">Hide</button>
+          <button id="show" type="button" class="btn btn-default">Show</button>
+
+          <br><br>
+          <button id="btn1" type="button" class="btn btn-default">Toggle</button>
+
+          <br>
+
+          <div id="toggle">Hide and Show all this text with one button, by toggling.</div>
+
+        </div>
+        <div class="col-sm-6">
+          <h5>jQuery AJAX</h5>
+
+          <div id="div2"><h2>Let jQuery AJAX Change This Text</h2></div>
+
+          <button id="btn2" type="button" class="btn btn-default">Get External Content</button>
+        </div>
+
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<footer class="footer">
+  <div class="container">
+    <p class="text-muted">Webmaster: <a href="mailto:logawa21@hawaii.edu" target="_blank">Lauren Ogawa</a>
+    </p>
+  </div>
+</footer>
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="js/jquery.min.js"></script>
+
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="js/bootstrap.min.js"></script>
+
+<script src="js/jquery.js"></script>
+</body>
+</html>
